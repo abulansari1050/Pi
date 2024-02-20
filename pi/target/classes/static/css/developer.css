@@ -1,0 +1,203 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+.content h1{
+    font-size:45px ;
+    margin-top: 50px;
+    margin-left:125px;
+}
+.content hr{
+    width: 80%;
+   margin-left: 125px;
+}
+.content p{
+    font-size: 20px;
+    color: gray;
+    margin-left: 70px;
+    width:85%;
+  
+}
+.content2 h1{
+    font-size:45px ;
+    margin-top: 50px;
+    margin-left:125px;
+}
+
+.content2 p{
+    font-size: 20px;
+    color: gray;
+    margin-left: 70px;
+    width:85%;
+}
+.content3 h1{
+    font-size:45px ;
+    margin-top: 50px;
+    margin-left:125px;
+}
+
+.content3 p{
+    font-size: 20px;
+    color: gray;
+    margin-left: 70px;
+    width:85%;
+}
+.content4 h1{
+    font-size:45px ;
+    margin-top: 50px;
+    margin-left:125px;
+}
+
+.content4 p{
+    font-size: 20px;
+    color: gray;
+    margin-left: 70px;
+    width:85%;
+}
+.content5{
+    margin-bottom: 25px;
+}
+.content5 h1{
+    font-size:45px ;
+    margin-top: 50px;
+    margin-left:125px;
+}
+
+.content5 p{
+    font-size: 20px;
+    color: gray;
+    margin-left: 70px;
+    width:85%;
+}
+
+.content5 .points h3{
+    font-size:30px ;
+    margin-top: 10px;
+    margin-left:125px;
+}
+
+/*Responsive*/
+@media(max-width:800px) {
+	.content{
+		position: relative;
+		left: -90px;
+		margin-left: 10px;
+		margin-right: 20px;
+		width: 100%
+			}
+	.content h1{
+    font-size:25px ;
+    width: auto;
+}
+
+.content p{
+    font-size:15px;
+    
+    margin-left: 70px;
+    margin-right: 150px;
+    width:80%;
+  
+}
+	.content2{
+		position: relative;
+		left: -90px;
+		margin-left: 10px;
+		margin-right: 20px;
+		
+		width: 100%
+			}
+.content2 h1{
+    font-size:25px ;
+  width: auto;
+}
+
+.content2 p{
+    font-size: 15px;
+    margin-right: 150px;
+    margin-left: 70px;
+    width:80%;
+    margin-top:5px;
+}
+.content3{
+		position: relative;
+		left: -90px;
+		margin-left: 10px;
+		margin-right: 20px;
+		
+		width: 100%
+			}
+.content3 h1{
+    font-size:25px ;
+  width: auto;
+}
+
+.content3 p{
+    font-size: 15px;
+    margin-right: 150px;
+    margin-left: 70px;
+    width:80%;
+    margin-top:5px;
+}
+
+.content4{
+		position: relative;
+		left: -90px;
+		margin-left: 10px;
+		margin-right: 20px;
+		
+		width: 100%
+			}
+.content4 h1{
+    font-size:25px ;
+  width: auto;
+}
+
+.content4 p{
+    font-size: 15px;
+    margin-right: 150px;
+    margin-left: 70px;
+    width:80%;
+    margin-top:5px;
+}
+
+.content5{
+		position: relative;
+		left: -90px;
+		margin-left: 10px;
+		margin-right: 20px;
+		
+		width: 100%
+			}
+.content5 h1{
+    font-size:25px ;
+  width: auto;
+}
+
+.content5 p{
+    font-size: 15px;
+    margin-right: 150px;
+    margin-left: 70px;
+    width:80%;
+    margin-top:5px;
+}
+.content5 .points h3{
+    font-size:20px ;
+    margin-top: 10px;
+    margin-left:125px;
+}
+.content5 .points p{
+	margin-top: -20px;
+}
+}
+
+footer a .bi{
+	font-size: 20px;
+	color: rgb(10, 10, 10);
+	position: relative;
+	float: left;
+	left:8px;
+	cursor:none;
+	
+}

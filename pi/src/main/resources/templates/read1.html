@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/read.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <title>Dr. Nicolas Kokkalis|PI Network</title>
+    <link rel="icon" href="images/fevicon.png" type="image/icon">
+    
+</head>
+<body>
+    
+	<header>
+		<nav>
+			<a th:href="@{/}">
+				<img src="images/logo.png" alt="" class="logo">
+				<p><b>Pi</b> Network</p>
+			</a>
+			<ul>
+				
+				<li><a th:href="@{/StackPage}">Stack</a></li>
+
+				<li> <a th:href="@{/AboutPage}">About Us</a></li>
+				<li> <a th:href="@{/DeveloperPage}">Developers</a></li>
+
+				<li class="icon">
+					<a th:href="@{https://www.facebook.com/PiCoreTeam?mibextid=9R9pXO}" target="_blank"><i
+							class="bi bi-facebook"></i></a>
+					<a th:href="@{https://x.com/PiCoreTeam?s=20}" target="_blank"> <i class="bi bi-twitter"></i></a>
+					<a th:href="@{https://youtube.com/@PiCoreTeam?si=AWzBLZYMJjzx9hkr}" target="_blank"> <i
+							class="bi bi-youtube"></i></a>
+					<a th:href="@{https://www.instagram.com/pi_network?igsh=cXVrY2YweDczMzRk}" target="_blank"> <i
+							class="bi bi-instagram"></i></a>
+
+					<!-- <i class="bi bi-list"></i> -->
+				</li>
+					<div class="toggle_btn">
+				<i class="bi bi-list "></i>
+			</div>
+
+			</ul>
+		 <div class="dropdown_menu ">
+                <li><a th:href="@{/StackPage}">Stack</a></li>
+				<li> <a th:href="@{/AboutPage}">About Us</a></li>
+				<li> <a th:href="@{/DeveloperPage}">Developers</a></li>
+				
+				<li class="icon">
+					<a th:href="@{https://www.facebook.com/PiCoreTeam?mibextid=9R9pXO}" target="_blank"><i
+							class="bi bi-facebook"></i></a>
+					<a th:href="@{https://x.com/PiCoreTeam?s=20}" target="_blank"> <i class="bi bi-twitter"></i></a>
+					<a th:href="@{https://youtube.com/@PiCoreTeam?si=AWzBLZYMJjzx9hkr}" target="_blank"> <i
+							class="bi bi-youtube"></i></a>
+					<a th:href="@{https://www.instagram.com/pi_network?igsh=cXVrY2YweDczMzRk}" target="_blank"> <i
+							class="bi bi-instagram"></i></a>
+
+					<!-- <i class="bi bi-list"></i> -->
+				</li>
+              </div> 
+		</nav>
+              
+			
+	</header>
+          <script src="js/script.js"></script>
+	
+<div class="read">
+    <section>
+        <div id="read">
+        <h1>Dr. Nicolas Kokkalis<br> <h3>Head of Technology</h3></h1>
+       
+        <p>    
+Dr. Nicolas Kokkalis is a Stanford PhD and instructor of Stanford’s first decentralized applications class, 
+CS359B, in 2018. His work focuses on combining distributed systems and human computer interaction to bring
+ cryptocurrency to everyday people. <br>
+
+He started with a BS and MS in Computer Science, which led him to do a Ph.D. at Stanford University and then 
+continue as a Postdoctoral Scholar in the Computer Science department there. Through and after his PhD work,
+ Nicolas created an early framework for writing “smart contracts” on fault tolerant distributed systems, 
+ and multiple human-focused products including online social applications with over 20M users and a crowd-powered 
+ email assistant.  <br>
+
+As a strong and long-term believer of the technical, financial and social potential of cryptocurrencies,
+ he is determined to move them beyond their current limitations and is committed to bringing the power of 
+ blockchain to more people. With the founding of Pi Network, he aims to accomplish this by improving the current
+  blockchain experience and empowering everyone to create, build and experience the future of online life through 
+  a user-centric design philosophy.
+</p>
+            </div>
+           <img src="images/Dr.-Nicolas-Kokkalis.jpg" alt="">
+       
+        </section>
+    </div>
+    <footer>
+        <div class="footer-items">
+            <ul>
+                <a href="https://socialchain.app/developer_terms" target="_blank">Developers terms of use</a>
+                <a href="https://socialchain.app/tos" target="_blank">Terms of Service</a>
+                <a href="https://socialchain.app/privacy" target="_blank">privacy & policy</a>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

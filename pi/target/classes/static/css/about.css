@@ -1,0 +1,414 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+header nav a p {
+	position: relative;
+	top: -55px;
+}
+
+.navdown {
+	justify-content: space-around;
+	align-items: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(/images/bg2.jpg);
+	background-size: cover;
+	width: auto;
+	height: 100vh;
+
+
+}
+
+.navdown .navdownpoint {
+	display: flex;
+	width: 100%;
+	height: auto;
+	margin-top: 125px;
+	margin-left: 200px;
+	
+	list-style: none;
+
+
+}
+
+.navdown h3 {
+	color: rgb(255, 208, 0);
+	font-size: 30px;
+	text-align: center;
+position: relative;
+	top: 70px;
+}
+
+.navdown h1 {
+	color: white;
+	font-size: 45px;
+	font-family: serif;
+	line-break: loose;
+	word-spacing: 10px;
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+
+
+.navdown .navdownpoint i {
+	font-size: 50px;
+	color: rgb(255, 208, 0);
+	text-align: center;
+}
+
+.navdown .navdownpoint h5 {
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	
+	top: 20x;
+	margin: 20px;
+	/* top:-50px;
+    margin: 10px; */
+	position: relative;
+	width: auto;
+	margin-right: 0;
+	right: 200px;
+}
+
+.navdown .navdownpoint p {
+	text-align: center;
+	margin-top: 15px;
+	color: rgb(255, 255, 255);
+	width: 280px;
+	font-size: 15px;
+	font-weight: 400;
+	position: absolute;
+	left: 15px;
+	-webkit-text-stroke: 0.2px black;
+}
+
+
+/*Responsive*/
+@media(max-width:800px) {
+	.navdown {
+		width: 100%;
+		background-position: center;
+		background-size: cover;
+		height: auto;
+		overflow-x: hidden;
+		margin-bottom: 50px;
+		
+		padding-bottom: 25px;
+
+	}
+
+	.navdown .navdownpoint {
+		display: inline-block;
+		
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.navdown h3 {
+		font-size: 20px;
+		text-align: center;
+		
+
+	
+	}
+
+	.navdown h1 {
+		position: relative;
+         width:80%;
+         text-align: center;
+	    font-size: 30px;
+		word-spacing: 5px;
+		text-align: center;
+		margin-left: 15px;
+		margin-right: 50px;
+		
+		padding-right:45px;
+		top:80px;
+		left:45px;
+	}
+
+	.navdown .navdownpoint i {
+		font-size: 40px;
+		
+		position: relative;
+		
+	}
+
+	.navdown .navdownpoint h5 {
+		font-size: 15px;
+		font-weight: 500;
+		position: relative;
+		margin-left: 20px;
+		margin-right:80px;
+       width: 90%;
+	}
+.navdown .navdownpoint h5 b{
+	text-align: center;
+}
+	.navdown .navdownpoint p {
+		text-align: center;
+		position: relative;
+		margin-top: 15px;
+	
+		margin-right:30px;
+		font-size: 18px;
+		font-weight: 400;
+width: auto;
+		-webkit-text-stroke: 0.2px black;
+	}
+}
+@media(max-width:400px) {
+	body{
+		margin-right: 0px;
+		transition: 0.5s ease-in-out;
+	}
+	.navdown {
+		width: 100%;
+		background-position: center;
+		background-size: cover;
+		height: auto;
+		
+		margin-bottom: 50px;
+		
+		padding-bottom: 25px;
+
+	}
+
+}
+
+
+.middle1 {
+	width: 85%;
+	margin-right: 20px;
+	margin-left: 50px;
+}
+
+.middle1 h1 {
+	margin-bottom: 20px;
+	font-weight: 500;
+	top: 20px;
+	position: relative;
+	left: 48px;
+}
+
+.middle1 p {
+	color: gray;
+}
+
+.middle1,
+h1,
+p {
+	margin-top: 20px;
+	display: block;
+	text-align: left;
+	/* word-break: break-all */
+}
+
+/*Responsive*/
+@media(max-width:800px) {
+	.middle1 {
+		padding-right: 20px;
+		width: 70%;
+		margin-right: 10px;
+		margin-left: -15px;
+	}
+
+	.middle1 h1 {
+		font-size: 20px;
+		font-weight: 800;
+	}
+
+	.middle1 p {
+		font-size: 12px;
+	width:110%;
+}
+}
+section {
+	margin: 20px;
+	display: flex;
+	width: 100%;
+	margin-left: 50px;
+}
+
+section h1 {
+	position: relative;
+	top: 5px;
+	left: 48px;
+}
+
+section img {
+	height: 120vh;
+	position: relative;
+	bottom: 90px;
+}
+
+section #abou-pi p {
+	color: grey;
+	width: 100%;
+	text-align: left;
+}
+
+/*Responsive*/
+@media(max-width:800px) {
+	section {
+		padding-right: 20px;
+		margin: 20px;
+		display: block;
+		width: 85%;
+padding-right: 50px;
+		margin-right: 10px;
+		margin-left: 0px;
+
+	}
+section #abou-pi{
+	width:100%;
+}
+	section #abou-pi h1 {
+		position: relative;
+		top: 5px;
+		left: 35px;
+		width: 100%;
+	}
+
+	section #abou-pi p {
+		font-size: 12px;
+		margin-right: 25px;
+		position: relative;
+		left: 40px;
+		width:110%;
+	}
+	section img {
+   display: none;
+	}
+}
+
+.founder {
+	position: relative;
+	margin-top: -200px;
+	margin-bottom: 50px;
+	margin-left: 75px;
+
+}
+
+.founder .found1 {
+	display: flex;
+
+}
+
+.founder h2 {
+	position: relative;
+	left: 25px;
+	top: 5px;
+	font-size: 35px;
+	font-weight: 500
+}
+
+.founder .found1 img {
+	height: 250px;
+	margin: 20px;
+	box-shadow: 1px 1px 5px black;
+	border-radius: 8px;
+}
+
+.founder .found1 ul li {
+	list-style: none;
+}
+
+.founder .found1 ul li h3 {
+	font-size: 25px;
+	font-weight: 500;
+	position: relative;
+	left: 50px;
+	margin-top: 20px;
+}
+
+.founder .found1 ul li p {
+	font-size: 15px;
+
+	color: gray;
+	width: 80%;
+}
+
+.founder .found1 ul a {
+	box-shadow: 1px 1px 3px black;
+	background: rgb(85, 1, 85);
+	color: white;
+	margin: 15px;
+	padding: 8px 10px 8px 10px;
+	border-radius: 8px;
+	position: relative;
+	top: 10px;
+	left: 30px;
+	font-size: 15px;
+}
+
+.founder .found1 ul a:hover {
+	background: rgb(202, 8, 202);
+	color: rgb(255, 255, 255);
+	transition: 0.2s ease;
+	font-size: 16px;
+
+}
+/*Responsive*/
+@media(max-width:800px) {
+	.founder {
+			margin-top:10px;
+			justify-content: space-around;
+			align-items: center;
+			position: relative;
+			right: 70px;
+			width: 70%;
+		}
+		.founder h2{
+			font-size: 28px;
+			
+		}
+		.founder .found1 {
+	display: block;
+	margin-bottom: -25px;
+
+}
+.founder .found1 img {
+	height: auto;
+	width: 150px;
+	image-resolution: initial;
+	margin-left: 20px;
+	position: relative;
+	left: 20px;
+	margin-right: 50px;
+	}
+	.founder .found1 ul li {
+	position: relative;
+	top: -30px;
+}
+
+	.founder .found1 ul li h3{
+		text-align: left;
+		font-size: 20px;
+		font-weight: 500;
+	    position: relative;
+	    left: 35px;
+	}
+	.founder .found1 ul li p {
+	font-size: 12px;
+	position: relative;
+	left:35px;
+	position: relative;
+	top: -20px;
+	width:120%;
+	
+	}
+	.founder .found1 ul a {
+		position: relative;
+		top: -35px;
+		font-size: 12px;
+		
+	}
+}
+	

@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-image: linear-gradient(-180deg, #e655ba 5%, #bb02bb 29%, #af34d4 67%, #9800df 100%); */
+    align-items: center;
+    overflow-x: hidden;
+}
+@media(max-width:800px){
+	body {
+		overflow-x: hidden;
+		}
+}
+header {
+    width: 100%;
+    background: #3b0c63;
+}
+
+header nav {
+	position: relative;
+	top: 10px;
+    height:70px;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+
+
+}
+header nav a {
+    position: relative;
+    right: 35px;
+    top: -8px;
+   
+}
+header nav a .logo {
+    width: 60px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 68px;
+
+}
+
+header nav a .logo:hover {
+    width: 62px;
+    transition: 0.2s;
+}
+
+header nav .logo,
+p {
+    position: relative;
+    left: 50px;
+
+    margin-top: -10px;
+}
+
+header nav a p {
+    position: relative;
+    top: -25px;
+    left: 150px;
+    font-size: 20px;
+    font-weight:500;
+    margin-left: -30px;
+    color: rgb(224, 158, 35);
+
+}
+header nav a p b{
+    font-weight: 800;
+}
+header nav a p:hover {
+    -webkit-text-stroke: 0.6px rgb(34, 34, 34);
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    position: relative;
+    /* left: 220px; */
+    right:25px;
+    top: -5px;
+    padding-left: 5px;
+    padding-top: -50px;
+    display: flex;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+
+header nav ul .icon i {
+    display: flex;
+    position: relative;
+    /* left: 10px; */
+    padding: 4px 0px 4px 0px;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size:16px;
+    padding: 3px 10px;
+    transition: 0.5s ease;
+}
+
+header nav ul li a:hover {
+    color: black;
+    background: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+header nav ul .icon a:hover {
+    color: black;
+    background: white;
+    border-radius: 45px;
+    cursor: pointer;
+    margin: 1px;
+}
+header .toggle_btn{
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+   position: relative;
+   left:120%;
+   top:-15px;
+  display: none;
+}
+header nav .dropdown_menu{
+	width:50%;
+	right: auto;
+	display: block;
+	position: relative;
+	top:50px;
+	margin-right: 0px;
+	list-style: none;
+	height:0;
+	z-index: 10;
+	text-align: center;
+	box-shadow: 2px 3px 5px black;
+	background:#3b0c63;
+	backdrop-filter: blur(15px);
+	overflow: hidden;
+	display: none;
+	transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	}
+	header nav .dropdown_menu.open{
+		height: 250px;
+	}
+header nav .dropdown_menu li a{
+	color: white;
+	font-size:15px;
+	margin: 25px;
+	position:relative ;
+	left:3px;
+	line-height:3;	
+	
+	
+}
+header nav .dropdown_menu .icon a .bi{
+	position: relative;
+	right: 10px;
+	margin-right: -30px;
+	padding-top: 20px;
+}
+@media(max-width:800px){
+	header nav {
+	position: relative;
+    height:60px;
+    }
+  header .toggle_btn{
+	  display: block;
+     position: absolute;
+     left:85%;
+     top: 8px;
+	  }
+	  header nav ul li{
+		  display: none; 
+	  }
+	  header nav .dropdown_menu{
+		  display: inline-block;
+		 margin-right: 0;
+		  }
+}
+footer{
+    background: rgb(0, 0, 0);
+    height:80px;
+    box-sizing: border-box;
+    width:100%;
+    text-align: center;
+}
+@media(max-width:800px){
+	footer{
+		height:120px;
+		align-items: center;
+		width: 100%;
+	}
+}
+footer .footer-items{   
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+
+}
+footer .footer-items ul a{
+    display: inline;
+color: rgb(255, 255, 255);
+font-size: 20px;
+text-align: center;
+position: relative;
+top: 30px;
+margin: 25px;
+
+}
+@media(max-width:800px){
+	footer .footer-items ul a{
+		display: block;
+		line-height:2px;
+		font-size: 15px;
+	}
+}
+footer .footer-items ul a:hover{
+color: rgb(188, 50, 206);
+transition: 0.3s ease;
+cursor: pointer;
+}
